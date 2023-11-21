@@ -327,7 +327,8 @@ p {
 
 .line2 {
     border-bottom: 1px solid var(--black);
-    width: 1290px;
+    max-width: 1290px;
+    width: 100%;
     margin: 0 auto;
     padding-top: 100px;
 }
@@ -336,8 +337,6 @@ p {
     margin-top: 60px;
 }
 
-.logo2 {
-    margin-right: 30px;
+.full {
+    width: 100%;
 }
-
-
