@@ -176,7 +176,7 @@ body {
 
 .section {
     background-color: #FF9C7D;
-    height: 435px;
+    min-height: 435px;
 }
 
 .section-content {
@@ -339,4 +339,13 @@ p {
 
 .full {
     width: 100%;
+}
+
+.card-item2 {
+    max-width: 439.98px;
+}
+
+.card-w {
+    max-width: 409px;
+    padding-right: 30px;
 }
