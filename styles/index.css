@@ -33,6 +33,7 @@ body {
 
 .h1 {
     font-size: var(--h1);
+    max-width: 552px;
 }
 
 .h2 {
@@ -163,11 +164,17 @@ body {
 }
 
 .section-main-content {
-    max-width: 1290px;
+    max-width: 620px;
 }
 
 .section-main-space-content {
    margin-bottom: 60px;
+   max-width: 522px;
+}
+
+.art-section-content {
+    max-width: 921px;
+    line-height: 40px;
 }
 
 .section-main-content2 {
@@ -247,6 +254,7 @@ p {
 .article-content {
     margin-top: 70px;
 }
+
 
 .article-img {
     padding-top: 50px;
@@ -339,6 +347,15 @@ p {
 
 .full {
     width: 100%;
+    max-width: 700px;
+}
+
+.full2 {
+    max-width: 100%;
+}
+
+.logo2 {
+    padding-top: 7px;
 }
 
 .card-item2 {
@@ -348,4 +365,8 @@ p {
 .card-w {
     max-width: 409px;
     padding-right: 30px;
+}
+
+@media screen and (max-width: 480px) {
+    
 }
